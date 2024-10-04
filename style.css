@@ -108,7 +108,6 @@ button:hover {
 .color-palette .color-box {
   width: 20px;
   height: 20px;
-  background-color: #f00;
   display: inline-block;
   margin-right: 5px;
 }
@@ -117,18 +116,18 @@ button:hover {
   background-color: #f00;
 }
 
-.color-box.two {
+.two {
   background-color: #0001fd;
 }
 
-.color-box.three {
+.three {
   background-color: #fffd08;
 }
 
-.color-box.four {
+.four {
   background-color: #fba700;
 }
 
-.color-box.five {
+.five {
   background-color: #027f00;
 }
