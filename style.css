@@ -1,0 +1,134 @@
+/*  Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  /* Buradaki border kaldırıldı.   */
+}
+
+article {
+  /* Body'de yer alan border buraya eklendi.   */
+  border: 5px solid #000;
+  /* Sabit genişlik   */
+  width: 800px;
+  /* Üst-alt 50px dış boşluk, sağ-sol oto margin.   */
+  margin: 50px auto;
+  position: relative;
+}
+
+.absolute-box {
+  background-color: #f00;
+  color: #fff;
+  width: 10%;
+  position: absolute;
+  top: -15;
+  left: -20;
+}
+
+h2,
+p:nth-child(3),
+h3 {
+  text-transform: uppercase;
+}
+
+h2 {
+  background: #d3d3d3;
+  text-align: center;
+  /* İç boşluk  */
+  padding: 10px;
+}
+
+/* Ürün Detayları, h3 başlığına üstten 20px dış boşluk ekle. */
+h3 {
+  margin-top: 20px;
+}
+
+p:nth-child(2) {
+  font-size: 32px;
+}
+
+.productShip {
+  color: #a9a9a9;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+section a:link {
+  color: #006400;
+}
+
+section a:visited {
+  color: #f00;
+}
+
+section a:hover {
+  text-decoration: none;
+}
+
+section a:active {
+  color: #0f0;
+}
+
+ul {
+  list-style: circle;
+  /*   list-style-position: inside; */
+  margin-left: 30px;
+}
+
+/* Liste maddeleri arasında 10px boşluk. */
+ul li {
+  margin-bottom: 10px;
+}
+
+button {
+  border: none;
+  font-size: 24px;
+  background: #ffa500;
+  color: #fff;
+  /*  Buton, bulunduğu konteyner elementin genişliğinin tamamı kadar yer kaplayacak.  */
+  width: 100%;
+  /*  Butonun üst kenarlığı.  */
+  border-top: 5px solid #000;
+}
+
+button:hover {
+  background: #fff;
+  color: #ffa500;
+  cursor: pointer;
+}
+
+.color-palette {
+  margin-top: 30px;
+}
+.color-palette .color-box {
+  width: 20px;
+  height: 20px;
+  background-color: #f00;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.color-box.one {
+  background-color: #f00;
+}
+
+.color-box.two {
+  background-color: #0001fd;
+}
+
+.color-box.three {
+  background-color: #fffd08;
+}
+
+.color-box.four {
+  background-color: #fba700;
+}
+
+.color-box.five {
+  background-color: #027f00;
+}
